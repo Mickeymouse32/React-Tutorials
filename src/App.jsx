@@ -26,6 +26,9 @@ import Recipe from "./components/Recipe";
 import SimpleForm from "./components/SimpleForm";
 import MultipleForm from "./components/MultipleForm";
 import OtherInputs from "./components/OtherInputs";
+import AxiosExample from "./components/AxiosExample";
+import TestDaisy from "./components/TestDaisy";
+import ReactHook from "./components/ReactHook";
 
 function App() {
   return (
@@ -57,7 +60,11 @@ function App() {
       {/* <Recipe /> */}
       {/* <SimpleForm /> */}
       {/* <MultipleForm /> */}
-      <OtherInputs />
+
+      {/* <OtherInputs /> */}
+      {/* <AxiosExample/> */}
+      {/* <TestDaisy /> */}
+      <ReactHook/>
     </>
   );
 }
